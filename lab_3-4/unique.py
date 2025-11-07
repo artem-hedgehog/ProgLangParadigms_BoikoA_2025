@@ -24,7 +24,7 @@ class Unique(object):
 
 if __name__ == '__main__':
     print("Тест 1 - числа:")
-    data1 = [1, 1, 2, 3, 1, 2, 4, 1, 3, 2]
+    data1 = [1, 1, 2, 3, 1, 2, 4, 1, 3, 2, 5]
     for item in Unique(data1):
         print(item)
     
